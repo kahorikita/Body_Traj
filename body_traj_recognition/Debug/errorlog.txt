@@ -1,0 +1,298 @@
+Start main.
+Promote process priority to Above Normal.
+Start init.
+SDL initialized.
+Screen built.
+Audio initialized.
+SDL_TTF initialized.
+
+Opened TrialFile ./TrialTables/SameDiffGest1.txt
+Trial File loaded: 36 trials found.
+SavFileName: ./Data/SameDiffGest1_9999
+   Instruction 0 loaded.
+   Instruction P0 loaded.
+VLC_PLUGIN_PATH=C:\Users\Coda\OneDrive - Einstein Healthcare Network\Documents\cpp code\same_diff_test\vlc-3.0.6\plugins
+VidPath: C:\Users\Coda\OneDrive - Einstein Healthcare Network\Documents\cpp code\same_diff_test\Resources\videos\Video47.mp4
+>Vid status flags reset
+>Vid window is hidden.
+Video: Video47.mp4 load complete: status = 0.
+   Video 47 loaded.
+      Vid_size: 1368x770
+VLC_PLUGIN_PATH=C:\Users\Coda\OneDrive - Einstein Healthcare Network\Documents\cpp code\same_diff_test\vlc-3.0.6\plugins
+VidPath: C:\Users\Coda\OneDrive - Einstein Healthcare Network\Documents\cpp code\same_diff_test\Resources\videos\Video4.mp4
+>Vid status flags reset
+>Vid window is hidden.
+Video: Video4.mp4 load complete: status = 0.
+   Video 4 loaded.
+      Vid_size: 1368x770
+Audio loaded.
+Initialization complete.
+Leaving IDLE state.
+Leaving INSTRUCT state.
+>>Leaving VidIdle state to VidRewind state.
+>>Leaving VidIdle state to VidRewind state.
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+Video 47 already loaded.
+Video 4 already loaded.
+Trial 1 Redo 1 started at 6017
+Leaving WAITSTATE state.
+>Vid window is visible.
+>>VidIdle state: Play requested.
+>>Leaving VidIdle state to VidPlay state.
+>>Leaving VidPlay state to VidEnded state.
+Vid1 finished playing. 
+>>Leaving VidEnded state to Rewind state.
+>Vid window is hidden.
+>> Rewind state = Ended; Stop requested.
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+>Vid window is hidden.
+Leaving SHOWSTIM1 state.
+>Vid window is visible.
+>>VidIdle state: Play requested.
+>>Leaving VidIdle state to VidPlay state.
+>Vid window is hidden.
+>>VidPlay state: Stop requested.
+>>Leaving VidPlay state to VidStopped state.
+False start; returning to WAITSTIM state.
+>>VidStopped state: Rewind requested.
+Video 47 already loaded.
+Video 4 already loaded.
+Trial 1 Redo 2 started at 21467
+Leaving WAITSTATE state.
+>Vid window is visible.
+>>VidIdle state: Play requested.
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+>>Leaving VidIdle state to VidPlay state.
+>>Leaving VidPlay state to VidEnded state.
+Vid1 finished playing. 
+>>Leaving VidEnded state to Rewind state.
+>Vid window is hidden.
+>> Rewind state = Ended; Stop requested.
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+>Vid window is hidden.
+Leaving SHOWSTIM1 state.
+>Vid window is visible.
+>>VidIdle state: Play requested.
+>>Leaving VidIdle state to VidPlay state.
+>>Leaving VidPlay state to VidEnded state.
+Vid1 finished playing. 
+>>Leaving VidEnded state to Rewind state.
+>Vid window is hidden.
+>> Rewind state = Ended; Stop requested.
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+>Vid window is hidden.
+>Vid window is hidden.
+Leaving SHOWSTIM2 state.
+Leaving ACTIVE state.
+Ending Trial.
+>>Leaving VidIdle state to VidRewind state.
+>>Leaving VidIdle state to VidRewind state.
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+VidPath: C:\Users\Coda\OneDrive - Einstein Healthcare Network\Documents\cpp code\same_diff_test\Resources\videos\Video29.mp4
+>Vid status flags reset
+>Vid window is hidden.
+   Video 29 loaded.
+      Vid_size: 1368x770
+VidPath: C:\Users\Coda\OneDrive - Einstein Healthcare Network\Documents\cpp code\same_diff_test\Resources\videos\Video30.mp4
+>Vid status flags reset
+>Vid window is hidden.
+   Video 30 loaded.
+      Vid_size: 1368x770
+Trial 2 Redo 1 started at 39436
+Leaving WAITSTATE state.
+>Vid window is visible.
+>>VidIdle state: Play requested.
+>>Leaving VidIdle state to VidPlay state.
+>>Leaving VidPlay state to VidEnded state.
+Vid1 finished playing. 
+>>Leaving VidEnded state to Rewind state.
+>Vid window is hidden.
+>> Rewind state = Ended; Stop requested.
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+>Vid window is hidden.
+Leaving SHOWSTIM1 state.
+>Vid window is visible.
+>>VidIdle state: Play requested.
+>>Leaving VidIdle state to VidPlay state.
+>>Leaving VidPlay state to VidEnded state.
+Vid1 finished playing. 
+>>Leaving VidEnded state to Rewind state.
+>Vid window is hidden.
+>> Rewind state = Ended; Stop requested.
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+>Vid window is hidden.
+>Vid window is hidden.
+>Vid window is hidden.
+Leaving SHOWSTIM2 state.
+Leaving ACTIVE state.
+Ending Trial.
+>>Leaving VidIdle state to VidRewind state.
+>>Leaving VidIdle state to VidRewind state.
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+Video 29 already loaded.
+Video 30 already loaded.
+Trial 2 Redo 2 started at 57315
+Leaving WAITSTATE state.
+>Vid window is visible.
+>>VidIdle state: Play requested.
+>>Leaving VidIdle state to VidPlay state.
+>>Leaving VidPlay state to VidEnded state.
+Vid1 finished playing. 
+>>Leaving VidEnded state to Rewind state.
+>Vid window is hidden.
+>> Rewind state = Ended; Stop requested.
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+>Vid window is hidden.
+Leaving SHOWSTIM1 state.
+>Vid window is visible.
+>>VidIdle state: Play requested.
+>>Leaving VidIdle state to VidPlay state.
+>>Leaving VidPlay state to VidEnded state.
+Vid1 finished playing. 
+>>Leaving VidEnded state to Rewind state.
+>Vid window is hidden.
+>> Rewind state = Ended; Stop requested.
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+>Vid window is hidden.
+>Vid window is hidden.
+Leaving SHOWSTIM2 state.
+Leaving ACTIVE state.
+Ending Trial.
+>>Leaving VidIdle state to VidRewind state.
+>>Leaving VidIdle state to VidRewind state.
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+VidPath: C:\Users\Coda\OneDrive - Einstein Healthcare Network\Documents\cpp code\same_diff_test\Resources\videos\Video22.mp4
+>Vid status flags reset
+>Vid window is hidden.
+   Video 22 loaded.
+      Vid_size: 1368x770
+VidPath: C:\Users\Coda\OneDrive - Einstein Healthcare Network\Documents\cpp code\same_diff_test\Resources\videos\Video15.mp4
+>Vid status flags reset
+>Vid window is hidden.
+   Video 15 loaded.
+      Vid_size: 1368x770
+Trial 3 Redo 1 started at 76187
+Leaving WAITSTATE state.
+>Vid window is visible.
+>>VidIdle state: Play requested.
+>>Leaving VidIdle state to VidPlay state.
+>>Leaving VidPlay state to VidEnded state.
+Vid1 finished playing. 
+>>Leaving VidEnded state to Rewind state.
+>Vid window is hidden.
+>> Rewind state = Ended; Stop requested.
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+>Vid window is hidden.
+Leaving SHOWSTIM1 state.
+>Vid window is visible.
+>>VidIdle state: Play requested.
+>>Leaving VidIdle state to VidPlay state.
+>>Leaving VidPlay state to VidEnded state.
+Vid1 finished playing. 
+>>Leaving VidEnded state to Rewind state.
+>Vid window is hidden.
+>> Rewind state = Ended; Stop requested.
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+>Vid window is hidden.
+>Vid window is hidden.
+>Vid window is hidden.
+Leaving SHOWSTIM2 state.
+Leaving ACTIVE state.
+Ending Trial.
+>>Leaving VidIdle state to VidRewind state.
+>>Leaving VidIdle state to VidRewind state.
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Stopped; Play requested.
+>>Video position: 0
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+>> Rewind state = Play/Pos Reset; Stop requested.
+>Vid status flags reset
+>>Leaving VidRewind state to VidIdle state.
+Video 22 already loaded.
+Video 15 already loaded.
+Trial 3 Redo 2 started at 93722
+Leaving WAITSTATE state.
+>Vid window is visible.
+>>VidIdle state: Play requested.
+>>Leaving VidIdle state to VidPlay state.
+Exiting...
+Shut down SDL.

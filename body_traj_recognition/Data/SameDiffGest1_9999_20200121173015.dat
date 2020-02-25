@@ -1,0 +1,12 @@
+Date 20200121
+Time 173015
+SubjectID 9999
+Block_Type 0
+Trial 0
+Redo 0
+VidA0
+VidB0
+--
+Device_Num Time Trial Redo TrialType Vid1 Vid2 VidType VidStatus Instruct CResp Resp Correct Score Practice Latency 
+-----
+0 21746 1 0 47 4 3 0 1 1 1 1 1 0 0
