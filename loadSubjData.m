@@ -16,14 +16,32 @@ c_diff = 1;
 for session = 1:3
     
     if session == 1
-        subjname = 'IMT002/IMT002_SameDiffGestF1_002_20200220194229.dat';
+        %%% IMT002
+%         subjname = 'IMT002/IMT002_SameDiffGestF1_002_20200220194229.dat';
 %         subjname = 'IMT002/IMT002_SameDiffGestR1_002_20200220202755.dat';
+
+        %%% IMT003
+        subjname = 'IMT003/IMT003_SameDiffGestF1_1_002_20200225144256.dat';
+%         subjname = 'IMT003/IMT003_SameDiffGestR1_1_002_20200225153152.dat';
+
     elseif session == 2
-        subjname = 'IMT002/IMT002_SameDiffGestF2_1_002_20200221141849.dat';
+        %%% IMT002
+%         subjname = 'IMT002/IMT002_SameDiffGestF2_1_002_20200221141849.dat';
 %         subjname = 'IMT002/IMT002_SameDiffGestR2_1_002_20200221134051.dat';
+
+        %%% IMT003
+        subjname = 'IMT003/IMT003_SameDiffGestF1_2_002_20200225150146.dat';
+%         subjname = 'IMT003/IMT003_SameDiffGestR1_2_002_20200225154052.dat';
+        
     elseif session == 3
-        subjname = 'IMT002/IMT002_SameDiffGestF2_2_002_20200221144137.dat';
+        %%% IMT002
+%         subjname = 'IMT002/IMT002_SameDiffGestF2_2_002_20200221144137.dat';
 %         subjname = 'IMT002/IMT002_SameDiffGestR2_2_002_20200221140438.dat';
+
+        %%% IMT003
+        subjname = 'IMT003/IMT003_SameDiffGestF1_3_002_20200225151417.dat';
+%         subjname = 'IMT003/IMT003_SameDiffGestR1_3_002_20200225155337';
+
     end
     disp(subjname);
     d = dlmread(subjname,'',11,1);
