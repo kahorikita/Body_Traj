@@ -13,7 +13,7 @@ c_diffb = 1;
 c_difft = 1;
 c_diff = 1;
 
-for session = 1:3
+for session = 1:6
     
     if session == 1
         %%% IMT002
@@ -21,26 +21,41 @@ for session = 1:3
 %         subjname = 'IMT002/IMT002_SameDiffGestR1_002_20200220202755.dat';
 
         %%% IMT003
-        subjname = 'IMT003/IMT003_SameDiffGestF1_1_002_20200225144256.dat';
-%         subjname = 'IMT003/IMT003_SameDiffGestR1_1_002_20200225153152.dat';
+%         subjname = 'IMT003/IMT003_SameDiffGestF1_1_003_20200225144256.dat';
+        subjname = 'IMT003/IMT003_SameDiffGestR1_1_003_20200225153152.dat';
 
     elseif session == 2
         %%% IMT002
-%         subjname = 'IMT002/IMT002_SameDiffGestF2_1_002_20200221141849.dat';
-%         subjname = 'IMT002/IMT002_SameDiffGestR2_1_002_20200221134051.dat';
+%         subjname = 'IMT002/IMT002_SameDiffGestF2_1_003_20200221141849.dat';
+%         subjname = 'IMT002/IMT002_SameDiffGestR2_1_003_20200221134051.dat';
 
         %%% IMT003
-        subjname = 'IMT003/IMT003_SameDiffGestF1_2_002_20200225150146.dat';
-%         subjname = 'IMT003/IMT003_SameDiffGestR1_2_002_20200225154052.dat';
+%         subjname = 'IMT003/IMT003_SameDiffGestF1_2_003_20200225150146.dat';
+        subjname = 'IMT003/IMT003_SameDiffGestR1_2_003_20200225154052.dat';
         
     elseif session == 3
         %%% IMT002
-%         subjname = 'IMT002/IMT002_SameDiffGestF2_2_002_20200221144137.dat';
-%         subjname = 'IMT002/IMT002_SameDiffGestR2_2_002_20200221140438.dat';
+%         subjname = 'IMT002/IMT002_SameDiffGestF2_2_003_20200221144137.dat';
+%         subjname = 'IMT002/IMT002_SameDiffGestR2_2_003_20200221140438.dat';
 
         %%% IMT003
-        subjname = 'IMT003/IMT003_SameDiffGestF1_3_002_20200225151417.dat';
-%         subjname = 'IMT003/IMT003_SameDiffGestR1_3_002_20200225155337';
+%         subjname = 'IMT003/IMT003_SameDiffGestF1_3_003_20200225151417.dat';
+        subjname = 'IMT003/IMT003_SameDiffGestR1_3_003_20200225155337.dat';
+
+    elseif session == 4 
+        %%% IMT003
+%         subjname = 'IMT003/IMT003_SameDiffGestF2_1_003_20200226120540.dat';
+        subjname = 'IMT003/IMT003_SameDiffGestR2_1_003_20200226113436.dat';
+
+    elseif session == 5
+        %%% IMT003
+%         subjname = 'IMT003/IMT003_SameDiffGestF2_2_003_20200226122815.dat';
+        subjname = 'IMT003/IMT003_SameDiffGestR2_2_003_20200226115231.dat';
+        
+    elseif session == 6
+        % IMT003
+%         subjname = 'IMT003/IMT003_SameDiffGestF2_3_003_20200226123119.dat';
+        subjname = 'IMT003/IMT003_SameDiffGestR2_3_003_20200226120211.dat';
 
     end
     disp(subjname);
@@ -98,7 +113,7 @@ c_diff = c_diff - 1;
 
 for num=1:4
     TMS_accuracy(num,1) = sum(Pat{num}(Pat{num}(:,3)==1,2))/length(Pat{num}(Pat{num}(:,3)==1,2)); % correct rate, TMS on 
-    TMS_accuracy(num,2) = sum(Pat{num}(Pat{num}(:,3)==-1,2))/length(Pat{num}(Pat{num}(:,3)==-1,2)); % correct rate, TMS on
+    TMS_accuracy(num,2) = sum(Pat{num}(Pat{num}(:,3)==-1,2))/length(Pat{num}(Pat{num}(:,3)==-1,2)); % correct rate, TMS off
 end
 
 
